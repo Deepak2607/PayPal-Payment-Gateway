@@ -91,6 +91,11 @@ app.get('/success',(req,res)=> {
 })
 
 
+app.get('/cancel',(req,res)=> {
+    res.render('cancel');
+})
+
+
 
 
 
