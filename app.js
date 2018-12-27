@@ -11,7 +11,7 @@ paypal.configure({
 
 
 const app= express();
-const port= 8000;
+const port= process.env.PORT || 8000;
 
 
 //View engine-----defaultLayout:home
