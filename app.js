@@ -9,7 +9,6 @@ paypal.configure({
   'client_secret': 'EDdhoYqNcY8CKxk3N9ZprXImettwKrMlRJ2fBLPJWuGengBB3ENaos0dOIPHpGJy4J7f2KDuoXoBAzPi'
 });
 
-
 const app= express();
 const port= process.env.PORT || 8000;
 
